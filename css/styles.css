@@ -2,8 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #333;
 }
+
+.titulo-principal {
+    font-size: 36px;  /* Tamaño de la fuente */
+    color: #2c3e50;   /* Color oscuro */
+    text-align: center; /* Centrado */
+    margin-top: 20px;  /* Espacio superior */
+    font-weight: bold; /* Negrita */
+}
+
 
 header {
     background-color: #ffcc00;
@@ -12,7 +21,7 @@ header {
 }
 
 .logo {
-    width: 120px;
+    width: 500px;
 }
 
 .menu {
@@ -22,7 +31,7 @@ header {
 
 .menu li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 2%;
 }
 
 .menu a {
